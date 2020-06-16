@@ -20,21 +20,25 @@
     <!-- メニューバー -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand text-primary" href="#">Marina Nota</a>
+            <a class="navbar-brand text-dark" href="#">Marina Nota</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mr-2">
-                        <a class="nav-link text-dark" href="about.html">About</a>
+                        <a class="nav-link text-dark" href="#1">About</a>
                     </li>
                     <li class="nav-item mr-2">
-                        <a class="nav-link text-dark" href="#">Works</a>
+                        <a class="nav-link text-dark" href="#2">Works</a>
                     </li>
                     <li class="nav-item mr-2">
-                        <a class="nav-link text-dark" href="#">SNS</a>
+                        <a class="nav-link text-dark" href="#3">SNS</a>
                     </li>
                     <li class="nav-item mr-2">
-                        <a class="nav-link text-dark" href="#">Contact</a>
+                        <a class="nav-link text-dark" href="#4">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -57,72 +61,84 @@
     </section>
 
     <!-- About -->
-    <section class="about py-5 triangle1">
+    <section class="about py-5 triangle1" id="1">
         <div class="container">
-            <h2 class="text-center mb-4">About</h2>
-            <p class="about text-center pt-3">野田真理菜の自己紹介サイトです。HTML/CSS, JavaScriptで書いています。
-                <br>フレームワークはBootstrapを使用しています。Tailswindも気になっています。</p>
-            <a href="about.html" class="view_more_button text-white" style="width: auto">view more
+            <h2 class="text-center mb-4 px-3">About</h2>
+            <p class="about text-center pt-3">野田真理菜の自己紹介サイトです。<span>HTML/CSS, JavaScriptで</span><span>書いています。</span></p>
+            <p class="about text-center">フレームワークはBootstrapを使用しています。</p>
+            <a href="about.html" class="view_more_button text-white mx-auto">view more
                 <img src="./img/arrow.png" width="40px" height="auto" alt="続きを読む" class="view-more-arrow">
             </a>
         </div>
     </section>
 
-    <section class="works py-5 my-5">
+    <section class="works py-5 my-5" id="2">
         <div class="container">
             <h2 class="text-center mt-5 mb-3">Works</h2>
             <p class="text-center mb-5">今までの成果物をご紹介します。</p>
             <div class="card-deck">
-                <div class="card">
-                    <a href="https://marina0324.github.io/dailyTrial_first/day06/practice/index.html" target="_blank">
-                        <img src="./img/dailyTrial_1.png" class="card-img-top" alt="..." width="100%" height="200">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">デイトラアプリの簡易版サイト</h5>
-                        <p class="card-text">HTML/CSSを使ってサイトを作る課題です。</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a href="https://marina0324.github.io/dailyTrial_first/day06/practice/index.html"
+                                target="_blank">
+                                <img src="./img/dailyTrial_1.png" class="card-img-top" alt="..." width="100%"
+                                    height="200">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">デイトラアプリの簡易版サイト</h5>
+                                <p class="card-text">HTML/CSSを使ってサイトを作る課題です。</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <a href="https://marina0324.github.io/dailyTrial_first/day12/index.html" target="_blank">
-                        <img src="./img/dailyTrial_2.png" class="card-img-top" alt="..." width="100%" height="200">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">Bootstrapでサイトを作る</h5>
-                        <p class="card-text">レスポンシブ対応のサイトをBootstrapで作る課題です。</p>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a href="https://marina0324.github.io/dailyTrial_first/day12/index.html" target="_blank">
+                                <img src="./img/dailyTrial_2.png" class="card-img-top" alt="..." width="100%"
+                                    height="200">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Bootstrapでサイトを作る</h5>
+                                <p class="card-text">レスポンシブ対応のサイトをBootstrapで作る課題です。</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <a href="https://marina0324.github.io/dailyTrial_first/day15/index.html" target="_blank">
-                        <img src="./img/dailyTrial_3.png" class="card-img-top" alt="..." width="100%" height="200">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">HTMLテンプレートでポートフォリオを作る</h5>
-                        <p class="card-text">T無料のHTMLテンプレートを使って、自分のポートフォリオを作る課題です。</p>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a href="https://marina0324.github.io/dailyTrial_first/day15/index.html" target="_blank">
+                                <img src="./img/dailyTrial_3.png" class="card-img-top" alt="..." width="100%"
+                                    height="200">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">HTMLテンプレートでポートフォリオを作る</h5>
+                                <p class="card-text">T無料のHTMLテンプレートを使って、自分のポートフォリオを作る課題です。</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="sns py-5 my-5 triangle2">
+    <section class="sns py-5 my-5 triangle2 px-3" id="3">
         <div class="container">
             <h2 class="text-center mt-5 mb-3">SNS</h2>
-            <div class="row">
-                <div class="col-5 mx-auto">
+            <div class="row pb-5">
+                <div class="col-sm-md-5 mx-auto pb-3">
                     <a class="twitter-timeline" data-lang="ja" data-width="400" data-height="500"
                         href="https://twitter.com/camellia_324?ref_src=twsrc%5Etfw">Tweets by camellia_324</a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
-                <div class="col-5 mx-auto">
+                <div class="col-sm-md-5 mx-auto">
                     <a class="twitter-timeline" data-lang="ja" data-width="400" data-height="500"
-                        href="https://twitter.com/nr_Web?ref_src=twsrc%5Etfw">Tweets by nr_Web</a>
+                        href="https://twitter.com/nr_Web?ref_src=twsrc%5Etfw" style="clear: left;">Tweets by nr_Web</a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="contact py-5 my-5">
+    <section class="contact py-5 my-5" id="4">
         <div class="container">
             <h2 class="text-center mt-5 mb-3">Contact</h2>
             <form>
@@ -139,7 +155,7 @@
         </div>
     </section>
 
-    <img id="totop" src="./img/totop.svg" alt="ページトップに戻るボタン">
+    <img id="totop" src="./img/btn11-13.png" alt="ページトップに戻るボタン">
 
     <footer class="py-3 bg-dark">
         <div class="container">
@@ -159,10 +175,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-        <script src="js/jquery-3.5.1.min.js" defer></script>
-        <script src="js/slick.min.js" defer></script>
-        <script src="js/scripts.js" defer></script>
-    
+    <script src="js/jquery-3.5.1.min.js" defer></script>
+    <script src="js/slick.min.js" defer></script>
+    <script src="js/scripts.js" defer></script>
+
 
 
 </body>

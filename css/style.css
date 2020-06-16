@@ -1,18 +1,26 @@
+.span {
+    display: inline-block;
+}
+
 .nav-item:hover {
     background: #ebebeb;
 }
 
 .my-photo {
     clip-path: circle(160px at center);   /* 半径と画像の中心点（center)を指定 */
+    text-align:center;
 }
 
 .about {
     background-color: #283a4b;
     color: #fff;
+    width: 100%;
+}
+.view_more_button{
+    width: 150px;
 }
 .triangle1 {
     position: relative;
-    height: 50vh;
 }
 .triangle1::before {
     content: '';
@@ -30,7 +38,6 @@
 .triangle2 {
     background-color: #f0ffbb;
     position: relative;
-    height: 100vh;
 }
 .triangle2::before {
     content: '';
@@ -67,8 +74,14 @@
     transition-duration: 0.5s;
 }
 
+.twitter-timeline {
+    clear: left;
+}
+
 #totop{
     position: fixed;
+    width: 70px;
+    height: auto;
     bottom: 70px;
     right: 40px;
     cursor: pointer;
