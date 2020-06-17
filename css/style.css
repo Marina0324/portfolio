@@ -69,7 +69,7 @@
         cursor: pointer;
     }
     .my-photo {
-        clip-path: circle(135px at center);   /* 半径と画像の中心点（center)を指定 */
+        clip-path: circle(130px at center);   /* 半径と画像の中心点（center)を指定 */
         text-align:center;
         width: 100%;
     }
