@@ -11,6 +11,7 @@
     text-align:center;
 }
 
+
 .about {
     background-color: #283a4b;
     color: #fff;
@@ -74,6 +75,28 @@
     transition-duration: 0.5s;
 }
 
+@media screen and (max-width: 480px) { 
+    #totop{
+        position: fixed;
+        width: 40px!important;
+        height: auto;
+        bottom: 20px!important;
+        right: 20px!important;
+        cursor: pointer;
+    }
+    .my-photo {
+        clip-path: circle(135px at center);   /* 半径と画像の中心点（center)を指定 */
+        text-align:center;
+        width: 100%;
+    }
+    .title{
+        margin: 0 20px 0 20px;
+    }
+    .twitter-top{
+        margin-bottom: 20px;
+    }
+}
+
 .twitter-timeline {
     clear: left;
 }
@@ -90,7 +113,6 @@
 .profile {
     background-color: #283a4b;
     color: #fff;
-    height: 900px;
 }
 
 .star{

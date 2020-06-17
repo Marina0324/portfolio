@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" media="screen">
     <link rel="icon" href="./img/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
         integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
@@ -26,9 +26,10 @@
                 <div class="col-sm-md-6">
                     <img src="./img/mypictire2.jpg" class="w-70 my-photo" alt="my-photo">
                 </div>
-                <div class="col-sm-md-6 align-middle pt-5 mt-5 text-dark">
+                <div class="col-sm-md-6 align-middle pt-5 mt-5 text-dark title">
                     <h1 class="my-name">Welcome to My Portfolio.</h1>
                     <p>フロントエンドエンジニア / Webデザイナー</p>
+                    <a href="https://github.com/Marina0324" target="blank"><img src="https://img.icons8.com/windows/64/000000/github.png"/></a>
                 </div>
             </div>
         </div>
@@ -38,53 +39,71 @@
     <section class="profile py-5">
         <div class="container">
             <h2 class="text-center mb-4">About me</h2>
-            <h5 class="pt-3">2014.04</h5>
-            <p>徳島県 阿南工業高等専門学校に推薦入学</p>
-            <h5 class="pt-3">2015.04</h5>
-            <p>阿南工業高等専門学校 情報コースに配属</p>
-            <h5 class="pt-3">~高専時代~</h5>
-            <p>部活動　卓球部と写真部と文化祭実行委員会。</p>
-            <p>3~5年次 学生寮の執行役員</p>
-            <p>4年次 文化祭実行委員会 案内班の班長</p>
-            <p>5年次 写真部の部長、プロコン競技部門運営代表</p>
-            <h5 class="pt-3">2019.04</h5>
-            <p>豊橋技術科学大学 グローバル技術科学アーキテクト養成コース(GAC) 情報・知能工学課程 第3年次に編入学<br>
-                <small>日本人と留学生のシェアハウスに住んでいます:)</small></p>
-            <p>サークル　グローバルハウス学生会、学園祭実行委員会、総部会</p>
-            <p>学園祭実行委員会では、広報局として<a href="http://sea.tut.ac.jp/gikadaisai/" target="blank">公式HP</a>の運用を担当しています。</p>
-
-
+            <div class="row mb-3 justify-content-center">
+                <div class="col-xs-sm-md-12 col-lg-5">
+                    <h5 class="pt-3">2014.04</h5>
+                    <p>徳島県 阿南工業高等専門学校に推薦入学</p>
+                    <h5 class="pt-3">2015.04</h5>
+                    <p>阿南工業高等専門学校 情報コースに配属</p>
+                    <h5 class="pt-3">~高専時代~</h5>
+                    <p>部活動　卓球部と写真部と文化祭実行委員会。</p>
+                    <p>3~5年次 学生寮の執行役員</p>
+                    <p>4年次 文化祭実行委員会 案内班の班長</p>
+                    <p>5年次 写真部の部長、プロコン競技部門運営代表</p>
+                </div>
+                <div class="col-xs-sm-md-12 col-lg-5">
+                    <h5 class="pt-3">2019.04</h5>
+                    <p>豊橋技術科学大学 グローバル技術科学アーキテクト養成コース(GAC) 情報・知能工学課程 第3年次に編入学<br>
+                        <small>日本人と留学生のシェアハウスに住んでいます:)</small></p>
+                    <p>サークル　グローバルハウス学生会、学園祭実行委員会、総部会</p>
+                    <p>学園祭実行委員会では、広報局として<a href="http://sea.tut.ac.jp/gikadaisai/" target="blank">公式HP</a>の運用を担当しています。
+                    </p>
+                </div>
+            </div>
+            <h2 class="text-center mb-4 py-3">Twitter</h2>
+            <div class="row pb-5">
+                <div class="col-sm-md-5 mx-auto px-3 twitter-top">
+                    <a class="twitter-timeline" data-lang="ja" data-width="400" data-height="500"
+                        href="https://twitter.com/camellia_324?ref_src=twsrc%5Etfw">Tweets by camellia_324</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-sm-md-5 mx-auto px-3">
+                    <a class="twitter-timeline" data-lang="ja" data-width="400" data-height="500"
+                        href="https://twitter.com/nr_Web?ref_src=twsrc%5Etfw" style="clear: left;">Tweets by nr_Web</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="skills py-5 my-5">
         <div class="container">
             <h2 class="text-center mt-5 mb-3 mx-auto">Skills</h2>
-            <div class="row mb-3">
-                <div class="col-4">
-                    <div>HTML/CSS  <span class="star" data-rate="3.0"></span>(3.0)</div>
+            <div class="row text-center mb-2">
+                <div class="col-sm-4 mb-2">
+                    <div>HTML/CSS <span class="star" data-rate="3.0"></span>(3.0)</div>
                 </div>
-                <div class="col-4">
-                    <div>Bootstrap  <span class="star" data-rate="2.5"></span>(2.5)</div>
+                <div class="col-sm-4 mb-2">
+                    <div>Bootstrap <span class="star" data-rate="2.5"></span>(2.5)</div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-4 mb-2">
                     <div>WordPress <span class="star" data-rate="1.0"></span>(1.0)</div>
                 </div>
             </div>
-            <div class="row ">
-                <div class="col-4">
+            <div class="row text-center">
+                <div class="col-sm-4 mb-2">
                     <div>JavaScript <span class="star" data-rate="2.0"></span>(2.0)</div>
                 </div>
-                <div class="col-4">
-                    <div>React.js  <span class="star" data-rate="0.5"></span>(0.5)</div>
+                <div class="col-sm-4 mb-2">
+                    <div>React.js <span class="star" data-rate="0.5"></span>(0.5)</div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-4">
                 </div>
             </div>
         </div>
     </section>
 
-    <img id="totop" src="./img/totop.svg" alt="ページトップに戻るボタン">
+    <img id="totop" src="./img/btn11-13.png" alt="ページトップに戻るボタン">
 
     <footer class="py-3 bg-dark">
         <div class="container">
